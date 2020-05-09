@@ -1,0 +1,106 @@
+/*Abhilash Gupta*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+body
+{
+background-color:#FEFEFA;
+height:100%;
+overflow: hidden; 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+-webkit-appearance: none;
+margin: 0;
+}
+
+.errorclass
+{
+margin-top:10px;
+text-align:center;
+font-size:7vmin;
+font-weight:900;
+font-family: 'Lato', sans-serif;
+color:#F01F1F;
+}
+
+input[type=number] 
+{
+-moz-appearance:textfield;
+}
+
+.formp
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+width:100%;
+text-align:center;
+font-size:6vmin;
+font-family: 'Roboto', sans-serif;
+color:#2F4F4F;
+}
+
+.formdata
+{
+margin-top:0px;
+}
+
+#formdatatop
+{
+margin-top:3px;
+}
+
+.inputformdatalogin
+{
+margin-top:2px;
+border-radius:10px;
+padding: 10px;
+border: 1px dashed #AEEEEE;
+height: 50px;
+width:100%;
+}
+
+.inputformdatasignup
+{
+text-align:center;
+margin-top:0px;
+width:100%;
+}
+
+.inputformdata
+{
+margin-top:2px;
+border-radius:10px;
+padding: 5px;
+border: 1px dashed #AEEEEE;
+height: 30px;
+width:100%;
+}
+
+.submitdata
+{
+font-size:6vmin;
+background: #1BA7FF;
+color: #FFFFFF;
+height: 30px;  
+border-radius: 5px;
+border: none;
+width:100%;
+font-family: 'Roboto', sans-serif;
+}
+
+.submitdata:hover
+{
+background: #199DF0;
+}

@@ -1,0 +1,213 @@
+/*Abhilash Gupta*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:500italic,300);
+
+
+
+body
+{
+background-color:#FEFEFA;
+}
+
+
+@media screen and (min-width:600px)
+{
+	.signuplogin
+	{
+		margin-left:0% !important;
+	}
+	
+	.iframediv
+	{
+		margin-left:0% !important;
+	}
+}
+
+@media screen and (max-width: 780px)
+{
+    .photoadddiv
+	{
+        display: none !important;
+    }
+	
+	.headingdiv
+	{
+		margin-top:10% !important;
+	}
+	
+	.mottoclass
+	{
+		margin-bottom:4% !important;
+	}
+}
+
+@media screen and (min-height:300px)
+{
+	.headingbig
+	{
+		font-size:5vmin !important;
+	}
+
+}
+
+
+a:hover, a:visited, a:link, a:active
+{
+color: inherit; 
+text-decoration: none !important;
+outline: 0;
+}
+
+
+.maincontainer
+{
+width:100%;
+}
+
+.headingdiv
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:30%;
+width:100%;
+text-align:center;
+background-color:#a5c4d4;
+border:4px solid #a5c4d4;
+margin-bottom:10px;
+}
+
+.headingbig
+{
+margin-right:0px;
+font-weight:900;
+letter-spacing:1.2px;
+font-size:8vmin;
+font-family: 'Ubuntu', sans-serif;
+color:#ffffff;
+}
+
+.comspan
+{
+font-size:4vmin;
+font-family: 'Ubuntu', sans-serif;
+color:#f0f0f0;
+}
+
+.mottoclass
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-left:5%;
+font-size:3vmin;
+color:#a8a8a8;
+font-family: 'Lato', sans-serif;
+margin-bottom:20%;
+}
+
+.supportclass
+{
+margin-left:5%;
+width:95%;
+font-size:3vmin;
+color:#2794ad;
+}
+
+.numberclass
+{
+color:#2794ad;
+}
+
+.supportp
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+color:#545454;
+}
+
+.signuplogin
+{
+margin-left:5%;
+margin-top:10%;
+border: 0px solid #000000;
+height:50px;
+margin-bottom:0px;
+width:100%;
+}
+
+.signuptab
+{
+opacity: 0.7;
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border:2px solid #326273;
+height:100%;
+}
+
+.logintab
+{
+opacity: 0.7;
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border:2px solid #326273;
+height:100%;
+}
+
+.signuploginhover:hover
+{
+-webkit-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+}
+
+.signuploginhover:active
+{
+-webkit-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+}
+
+.signuploginp
+{
+text-shadow: 0px 3px 3px rgba(220, 220, 220, 1);
+color: #2F4F4F;
+line-height:50px;
+display: inline-block;
+position: relative;
+width: 100%;
+text-align:center;
+font-size:4vmin;
+font-family: 'Lato', sans-serif;
+}
+
+.iframediv
+{
+margin-left:5%;
+margin-top:51px;
+width:100%;
+height:300px;
+border: 0px solid #5F9EA0;
+}
+
+#changewindow
+{
+min-height: 100%;
+height:100%;
+width:100%; 
+}
